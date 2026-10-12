@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MJ CHIPS — crisp in every bite. Explore our banana, kangkong, and kamote chips.">
+  <title>FAQs | MJ CHIPS</title>
+  <style>
+    :root { --orange: #ff9f1c; --gold: #ffd166; --ink: #17120c; --cream: #fff7e8; --brown: #6b310b; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); font-family: Georgia, "Times New Roman", serif; line-height: 1.6; background: var(--orange) url("bg.png") center/cover fixed; }
+    .site-header { text-align: center; padding: 24px 16px 12px; }
+    .logo { width: 260px; max-width: 90%; max-height: 170px; object-fit: contain; background: #fff; border: 3px solid var(--ink); border-radius: 14px; }
+    h1 { margin: 10px 0 0; font-family: Impact, "Arial Black", sans-serif; font-size: clamp(2rem, 6vw, 3.2rem); letter-spacing: .03em; }
+    .tagline { margin: 0; font-size: 1.25rem; font-style: italic; }
+    nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 26px; margin: 16px 0 0; padding: 12px 16px; border-top: 3px solid var(--ink); border-bottom: 3px solid var(--ink); }
+    nav a { color: var(--ink); font-weight: bold; text-decoration: none; padding: 4px 2px; border-bottom: 2px solid transparent; }
+    nav a:hover, nav a:focus-visible, nav a[aria-current="page"] { border-bottom-color: var(--ink); }
+    main { width: min(1050px, 100%); margin: 0 auto; padding: 28px 16px 44px; }
+    h2 { margin: 0 0 22px; text-align: center; font-size: clamp(1.8rem, 5vw, 2.5rem); }
+    .intro { max-width: 760px; margin: 0 auto 24px; text-align: center; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(230px, 100%), 1fr)); gap: 22px; }
+    .product { background: var(--cream); border: 3px solid var(--ink); border-radius: 14px; padding: 16px; text-align: center; box-shadow: 0 5px 0 rgba(0,0,0,.12); }
+    .product img { width: 100%; height: 220px; object-fit: contain; display: block; }
+    .product h3 { margin: 8px 0 0; font-size: 1.45rem; }
+    .price { margin: 4px 0 10px; font-weight: bold; font-size: 1.1rem; }
+    .button { display: inline-block; padding: 10px 20px; border: 2px solid var(--ink); border-radius: 999px; background: var(--ink); color: var(--gold); font-weight: bold; text-decoration: none; cursor: pointer; font: inherit; }
+    .button:hover, .button:focus-visible { background: #3b2a1c; }
+    .center { text-align: center; margin-top: 28px; }
+    .panel { max-width: 760px; margin: 0 auto; padding: 22px; background: var(--cream); border: 3px solid var(--ink); border-radius: 14px; }
+    .faq-item { padding: 12px 0; border-bottom: 1px solid #d8b98a; }
+    .faq-item:last-child { border-bottom: 0; }
+    .faq-item h3 { margin: 0 0 5px; }
+    form { display: grid; gap: 14px; }
+    .form-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px; }
+    label, legend { font-weight: bold; }
+    input[type="text"], input[type="tel"], input[type="email"], select, textarea { display: block; width: 100%; margin-top: 5px; padding: 10px; border: 1px solid #74502c; border-radius: 7px; font: inherit; background: #fff; }
+    fieldset { border: 1px solid #b18a55; border-radius: 8px; padding: 12px; }
+    fieldset label { display: inline-flex; align-items: center; gap: 6px; margin: 6px 14px 6px 0; font-weight: normal; }
+    .note { font-size: .92rem; }
+    footer { text-align: center; padding: 16px; border-top: 3px solid var(--ink); background: rgba(255,247,232,.65); }
+    @media (max-width: 560px) { .form-grid { grid-template-columns: 1fr; } nav { gap: 6px 16px; } .panel { padding: 15px; } }
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" aria-label="MJ CHIPS home"><img class="logo" src="logo.png" alt="MJ CHIPS logo"></a>
+    <h1>Welcome to MJ CHIPS</h1>
+    <p class="tagline">Crisp in every bite</p>
+  </header>
+  <nav aria-label="Main navigation"><a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="product.html">Products</a>
+<a href="orderform.html">Order</a>
+<a href="faq.html" aria-current="page">FAQs</a></nav>
+  <main><h2>Frequently Asked Questions</h2><section class="panel">
+  <div class="faq-item"><h3>What products do you offer?</h3><p>We offer Banana Chips, Kangkong Chips, and Kamote Chips.</p></div>
+  <div class="faq-item"><h3>How much does each product cost?</h3><p>The listed price is ₱90.00 per product. Confirm pack size and final price with the seller before paying.</p></div>
+  <div class="faq-item"><h3>How can I place an order?</h3><p>Open the Order page, fill in the form, and choose your product, flavor, pack size, and payment method. The current website is a demo and does not transmit orders.</p></div>
+  <div class="faq-item"><h3>What payment methods are listed?</h3><p>The form lists Cash on Delivery, GCash, and Maya. Confirm payment details directly with the seller through a trusted channel.</p></div>
+  <div class="faq-item"><h3>Can I request a flavor?</h3><p>The form lists Cheese, Barbecue, and Sour Cream. Availability should be confirmed with the seller.</p></div>
+</section></main>
+  <footer>&copy; MJ CHIPS. Crisp in every bite.</footer>
+</body>
+</html>
